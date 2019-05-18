@@ -74,6 +74,7 @@ p {
 header {
     display: flex;
     width: 110%;
+    margin-left: -2%;
   }
   
 nav {
@@ -85,7 +86,7 @@ nav {
 
 header nav a {
     text-decoration: none;
-    color: #b0b0b0;
+    color: black;
 }
 
 header nav a:hover {
@@ -103,6 +104,13 @@ header nav a:hover {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     margin-top: 2%;
+    border-width: 5%
+}
+
+.top-info .text-container {
+    width: 100%;
+    padding: 0 .5%;
+    padding-bottom: 20px;  
 }
 
 .top-content {
@@ -111,7 +119,7 @@ header nav a:hover {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .top-content .text-container {
@@ -119,6 +127,17 @@ header nav a:hover {
     padding: 0 .5%;
     padding-bottom: 20px;  
 }
+
+.buttons .item {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: white;
+  }
 
 .middle-content {
     margin-bottom: 20px;
@@ -292,18 +311,19 @@ footer nav a {
 .about-middle-content {
     display: flex;
     flex-wrap: wrap;
-    
+    width: 110%;
+    margin-left: -2%;
 }
 
 .card {
     width: 45%;
     padding: 2%;
-    margin: 2%;
+    margin: 1%;
     border-bottom:  1px dashed grey;
 
 }
 
 .card img{
     margin-bottom: 1.5%;
-    width: 100%;
+    width: 110%;
 }
